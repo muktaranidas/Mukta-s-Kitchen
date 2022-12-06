@@ -1,0 +1,44 @@
+[
+  {
+    "service_id": "01",
+    "title": "Fochka",
+    "img": "https://image.shutterstock.com/image-photo/panipuri-fuchka-fhuchka-gupchup-golgappa-260nw-2076945667.jpg",
+    "price": "6500.00",
+    "description": "Lore ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas.Mini necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+  },
+  {
+    "service_id": "02",
+    "title": "Kacchi",
+    "img": "https://image.shutterstock.com/image-photo/kacchi-biriyani-king-bangladeshi-foods-260nw-1379067206.jpg",
+    "price": "5500.00",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum"
+  },
+  {
+    "service_id": "03",
+    "title": "Pizza",
+    "img": "https://www.shutterstock.com/image-photo/slice-hot-pizza-large-cheese-260nw-643604302.jpg",
+    "price": "4500.00",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Mingni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+  },
+  {
+    "service_id": "01",
+    "title": "Fochka",
+    "img": "https://image.shutterstock.com/image-photo/panipuri-fuchka-fhuchka-gupchup-golgappa-260nw-2076945667.jpg",
+    "price": "6500.00",
+    "description": "Lore ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas.Mini necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+  },
+  {
+    "service_id": "02",
+    "title": "Kacchi",
+    "img": "https://image.shutterstock.com/image-photo/kacchi-biriyani-king-bangladeshi-foods-260nw-1379067206.jpg",
+    "price": "5500.00",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum"
+  },
+  {
+    "service_id": "03",
+    "title": "Pizza",
+    "img": "https://www.shutterstock.com/image-photo/slice-hot-pizza-large-cheese-260nw-643604302.jpg",
+    "price": "4500.00",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Mingni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+  }
+]
