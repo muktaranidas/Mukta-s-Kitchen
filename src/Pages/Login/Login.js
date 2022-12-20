@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import { AuthContext } from "../../contexts/AuthProvider/AuthProvider";
 
 const Login = () => {
@@ -34,6 +35,7 @@ const Login = () => {
           .then((data) => {
             console.log(data);
             localStorage.setItem("token", data.token);
+            toast("Successfully Login");
             navigate(from, { replace: true });
           });
       })

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./SeeAllServiceCard.css";
 
 const SeeAllServicesCard = ({ service }) => {
   const { _id, title, price, img, description } = service;
@@ -7,7 +8,7 @@ const SeeAllServicesCard = ({ service }) => {
     <div>
       <div className=" card card-compact w-96 bg-base-100 shadow-xl mb-8 w-full	h-auto">
         <figure>
-          <img className="" src={img} alt="" />
+          <img className="seeAllServicesCard" src={img} alt="" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{title}</h2>

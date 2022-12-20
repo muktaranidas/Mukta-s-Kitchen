@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import Favicon from "react-favicon";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 import { AuthContext } from "../../contexts/AuthProvider/AuthProvider";
 
 const SignUp = () => {
@@ -16,6 +17,7 @@ const SignUp = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
+        toast("Successfully SignUp");
       })
       .catch((err) => console.log(err));
   };

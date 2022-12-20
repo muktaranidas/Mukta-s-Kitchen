@@ -81,8 +81,8 @@ const Reviews = () => {
 
   return (
     <div className="overflow-x-auto w-full">
-      <h2 className="text-5xl">Now You Have {reviews.length} Orders </h2>
-      <table className="table w-full">
+      <h2 className="text-5xl mb-6">Now You Have {reviews.length} Reviews </h2>
+      <table className="table w-full border-4">
         <thead>
           <tr>
             <th>Service Id/Name</th>

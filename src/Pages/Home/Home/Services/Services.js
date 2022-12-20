@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import SeeAllServices from "../../../SeeAllServices/SeeAllServices";
+// import SeeAllServices from "../../../SeeAllServices/SeeAllServices";
 import ServiceCard from "./ServiceCard";
 
 const Services = () => {
@@ -27,7 +27,9 @@ const Services = () => {
       <div className="text-center">
         <Link to="/services">
           {" "}
-          <button className="btn btn-primary w-2/12		 mb-8">See All</button>
+          <button className="btn btn-primary sm:w-full lg:w-2/12		 mb-8">
+            See All
+          </button>
         </Link>
       </div>
     </div>

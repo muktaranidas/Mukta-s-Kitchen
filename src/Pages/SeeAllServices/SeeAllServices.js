@@ -5,7 +5,7 @@ import SeeAllServicesCard from "./SeeAllServicesCard";
 
 const SeeAllServices = () => {
   const [services, setServices] = useState([]);
-  const handleSeeAllService = () => {};
+  // const handleSeeAllService = () => {};
 
   useEffect(() => {
     fetch(

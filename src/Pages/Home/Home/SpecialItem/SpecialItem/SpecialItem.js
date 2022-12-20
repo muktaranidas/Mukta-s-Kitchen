@@ -1,35 +1,38 @@
 import React from "react";
+import fuchka from "../../../../../assets/images/Special/febrian-zakaria-SiQgni-cqFg-unsplash.jpg";
+import friedChicken from "../../../../../assets/images/Special/rc-cf-FMh5o5m5N9E-unsplash.jpg";
 
 const SpecialItem = () => {
   return (
-    <div className="hero my-20 pb-20 bg-pink-400">
-      <div className="hero-content flex-col lg:flex-col w-full">
-        <h1 className="text-black text-5xl font-bold py-6">Special Item</h1>
-        <div className="grid grid-cols-2 gap-8">
+    <div className="hero my-40 pb-20">
+      <div className="hero-content flex-col lg:flex-row mt-4">
+        <div className="lg:w-1/2 sm:w-full   relative">
+          <img src={fuchka} alt="" className="w-4/5   rounded-lg shadow-2xl" />
           <img
-            src="https://www.shutterstock.com/image-photo/slice-hot-pizza-large-cheese-260nw-643604302.jpg"
+            src={friedChicken}
             alt=""
-            className=" rounded-lg shadow-2xl "
-          />
-          <img
-            src="https://image.shutterstock.com/image-photo/panipuri-fuchka-fhuchka-gupchup-golgappa-260nw-2076945667.jpg"
-            alt=""
-            className=" rounded-lg shadow-2xl "
+            className="  absolute  w-4/3 h-3/4 right-1 top-1/2  	 border-8 rounded-lg shadow-2xl"
           />
         </div>
-        <div className="grid grid-cols-2 gap-80">
-          <h3 className="text-3xl font-bold text-center">Pizza</h3>
-          <h1 className="text-3xl font-bold text-center">Fuchka</h1>
-        </div>
-        <div className="w-1/2">
-          <p className="py-6">
-            All customers love to eat Mukta's kitchen pizza and this is Mukta's
-            Kitchen specialty . I Think oneday you will try.
+        <div className="w-1/2 ">
+          <p className="text-red-400 text-3xl font-bold py-4 mt-16 ">
+            Our Chef
+          </p>
+          <h1 className="text-5xl font-bold">
+            We are qualified <br /> & of experience <br /> in this field
+          </h1>
+          <p className="py-6 ">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
           </p>
           <p className="py-4">
-            All customers also love to eat Mukta's kitchen Fuchka and this is
-            Mukta's Kitchen specialty . I Think oneday you will try.
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
           </p>
+          <button className="btn bg-orange-600 border-none">Get Started</button>
         </div>
       </div>
     </div>
