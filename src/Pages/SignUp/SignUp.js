@@ -18,6 +18,7 @@ const SignUp = () => {
         const user = result.user;
         console.log(user);
         toast("Successfully SignUp");
+        // navigate(from, { replace: true });
       })
       .catch((err) => console.log(err));
   };
@@ -42,6 +43,8 @@ const SignUp = () => {
           .then((data) => {
             console.log(data);
             localStorage.setItem("token", data.token);
+            toast("Successfully Google SignUp");
+            // navigate(from, { replace: true });
           });
       })
       .catch((err) => console.log(err));

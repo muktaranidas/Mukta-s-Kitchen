@@ -62,6 +62,8 @@ const Login = () => {
           .then((data) => {
             console.log(data);
             localStorage.setItem("token", data.token);
+            toast("Successfully Google Login");
+            navigate(from, { replace: true });
           });
       })
       .catch((err) => console.log(err));
