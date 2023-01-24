@@ -6,7 +6,7 @@ const About = () => {
     <div className="hero  my-24">
       <div className="hero-content grid sm:grid-cols-1 lg:grid-cols-2 ">
         <img src={image} className="sm:w-full   rounded-lg shadow-2xl" alt="" />
-        <div className="mx-8">
+        <div className="mx-8 ml-16">
           <h1 className="text-4xl font-bold text-pink-500">Mukta's kitchen!</h1>
           <p className="py-6">
             All customers love to eat Mukta's kitchen pizza and this is Mukta's

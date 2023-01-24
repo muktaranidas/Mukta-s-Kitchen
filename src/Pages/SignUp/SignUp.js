@@ -32,6 +32,7 @@ const SignUp = () => {
         };
         console.log(currentUser);
         // GET JWT TOKEN
+
         fetch("https://b6a11-service-review-server-side-theta.vercel.app/jwt", {
           method: "POST",
           headers: {

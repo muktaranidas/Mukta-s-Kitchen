@@ -14,7 +14,7 @@ const SpecialItem = () => {
             className="  absolute  w-4/3 h-3/4 right-1 top-1/2  	 border-8 rounded-lg shadow-2xl"
           />
         </div>
-        <div className="w-1/2 ">
+        <div className="w-1/2  ml-24 ">
           <p className="text-red-400 text-3xl font-bold py-4 mt-16 ">
             Our Chef
           </p>
